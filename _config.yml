@@ -1,0 +1,97 @@
+# Site Settings
+name: 博客   #网站名称
+title: brantyouth  #网站标题用于搜索引擎优化目的并设置主页标题
+description: 使用Jekyll编写的博客.   #网站描述
+#标签
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+
+#邮箱地址
+email: yl274307151@163.com
+#dsiqus评论（被墙了只能在国外使用）
+   #disqus_username: disqus_username
+   
+#在主页中头部的显示/隐藏
+show_hero: true
+
+
+# 社交媒体设置
+# Remove the item if you don't need it
+github_username: brantyouth
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
+
+
+# 主题设置
+themeColor: "#ff0a16"
+primaryDark: "#141414"
+accentDark: "#ffffff"
+lightGray: "#f2f2f2"
+texts: "#333333"
+
+
+# 帖子设置
+show_time_bar: true      #显示/隐藏阅读进度条
+show_modal_on_exit: false   #访问者离开页面时显示/隐藏推荐模式
+show_modal_on_finish_post: true   #当访问者到达帖子结尾时显示/隐藏推荐模式
+two_columns_layout: true   #在一列和两列之间切换帖子布局
+
+
+# Advanced Settings
+baseurl: "" # 设置站点的子路径，例如/blog
+url: "https://brantyouth.github.io" # 设置站点的基本主机名和协议
+#google_analytics: "UA-XXXXXXXX-X"
+language: "zh"   #设置您的网站语言。它用于搜索引擎优化的目的
+
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
+
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]

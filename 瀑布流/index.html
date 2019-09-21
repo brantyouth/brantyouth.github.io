@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>瀑布流</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .full{
+            position: relative;
+            border: 1px solid green; 
+        }
+        .full img   {
+          animation: all 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="full">
+
+    </div>
+    <script src="./js/demo.js"></script>
+    <script>
+        var div = document.getElementsByClassName('full')[0];
+        //包含图片的路径
+        var imgs = [];
+        for (var i = 0; i <= 40; i++) {
+            imgs.push('img/' + i + '.jpg')
+            // console.log(imgs);
+            
+        }
+        createWaterFall(div,imgs,220);
+    </script>
+</body>
+
+</html>

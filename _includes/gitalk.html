@@ -1,0 +1,16 @@
+<!-- Gitalk start -->
+<div id="gitalk-container"></div> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> 
+<script>
+    var gitalk  = new Gitalk ({
+        id: window.location.pathname,   // Ensure uniqueness and length less than 50
+        clientID: '146b6a1945d3e47a1ab5',
+        clientSecret: '3ecb0af84aca492708450e24a639cb2faefcf80b',
+        repo: 'brantyouth.github.io',
+        owner: 'brantyouth',
+        admin: ['brantyouth'],
+		    distractionFreeMode: false  // Facebook-like distraction free mode
+    })
+    gitalk.render('gitalk-container')
+</script> 
+<!-- Gitalk end -->
