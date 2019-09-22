@@ -1,10 +1,10 @@
 ﻿---
-date: 2019-08-23 12:26:40
+date: 2019-09-18 12:26:40
 layout: post
 title: github远程库文件修改
 subtitle: 在上传项目到github时,忘记忽略了某个文件夹target,就直接push上去了, 最后意识到了此问题,决定删除掉远程仓库中的target文件夹
-image: http://img1.dowebok.com/77.png
-optimized_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST_pEz0bjUazv3CLKrWapdA2qxY1c25mFAVOwuqDMuVr9VldWX
+image: https://zdnet1.cbsistatic.com/hub/i/2017/02/26/78ceb3e0-ab28-49de-a50e-b0fbde4e591c/4132d8c61c6fd3ed19044a64cc28a071/git-logo.jpg
+optimized_image: https://www.edureka.co/blog/wp-content/uploads/2016/11/Git-Architechture-Git-Tutorial-Edureka-2.png
 category: git版本控制系统
 tags:
   - git

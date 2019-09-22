@@ -57,7 +57,7 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 </p>
 <div >
 
-<p style="color:blue">
+<p >
 
      我的能力就这么多。我若全心工作，则必然忽略生活；我若用心生活，则必然一事无成；我若两者兼顾，又难免平庸
 
@@ -65,7 +65,7 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 
 </div>
 
-<p style="color:red">
+<p >
 
 趁我在还能看得进书写得动代码的年纪，努力一回，看看这平庸的资质究竟能发挥几分。
 

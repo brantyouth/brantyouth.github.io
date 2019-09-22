@@ -1,5 +1,5 @@
 ---
-date: 2018-02-03 12:26:40
+date: 2019-09-15 12:26:40
 layout: post
 title: JavaScript的api   #标题
 subtitle: JavaScript常用的api  #简介
