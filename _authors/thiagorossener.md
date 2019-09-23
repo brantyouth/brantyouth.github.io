@@ -1,7 +1,7 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.png
-name: thiagorossener
+name: brantyouth
 display_name: brantyouth
 position: 编辑
 bio: 只是个开发人员.
