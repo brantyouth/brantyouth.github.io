@@ -1,5 +1,5 @@
 ---
-date: 2019-08-20 12:26:40
+date: 2019-08-20
 layout: post
 title: Markdown的使用
 subtitle: Markdown 是一种方便记忆、书写的纯文本标记语言

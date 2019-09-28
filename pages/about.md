@@ -8,8 +8,5 @@ menu: true
 
 
 <script>
-window.onload = function (){
   window.location = "../lovekang/index.html";
-  
-}
 </script>
